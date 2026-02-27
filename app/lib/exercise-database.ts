@@ -76,6 +76,48 @@ export const SCIENCE_NOTES: Record<string, string> = {
   'Sit-ups': `Sit-ups train the rectus abdominis through spinal flexion with a large range of motion. The hip flexors assist in the upper portion — this is actually beneficial for core integration. Keep hands behind the head loosely; avoid pulling on the neck. 3 seconds down is more effective than speed.`,
 
   'Hanging Straight Leg Raise': `Hanging leg raises train the rectus abdominis and hip flexors with the abs in a lengthened position, producing high mechanical tension. Research shows lower ab activation is greatest when the pelvis posteriorly tilts during the movement. Avoid swinging — control the descent for maximum tension.`,
+
+  // ── Cable exercises (Kahuna + Full Gym) ──────────────────────────────────
+  'Cable Lateral Raise': `Cable lateral raises maintain constant tension throughout the full range of motion unlike dumbbells which drop off near the body. EMG research confirms the medial deltoid is maximally activated between 60–90° of abduction. Lead with the elbow, not the wrist, and allow a 2-second descent for maximum time under tension.`,
+
+  'Cable One Arm Lateral Raise': `Single-arm cable lateral raises allow greater stretch at the bottom position and eliminate the momentum common in bilateral dumbbell raises. The constant cable tension produces superior medial delt activation compared to dumbbell variations. Keep a slight forward lean for optimal angle of pull.`,
+
+  'Cable Rear Delt Row (with rope)': `The cable face pull is the premier posterior deltoid and upper trap exercise for shoulder health and 3D delt development. Research by Cools (2007) confirms it as the highest-activation exercise for lower trapezius and external rotators. Pull the rope to forehead height, flaring elbows wide and externally rotating at peak contraction.`,
+
+  'Cable Crossover Reverse Fly': `Cable crossover reverse flyes target the posterior deltoid and rhomboids through a horizontal abduction arc with constant cable tension. The constant load throughout the movement's full range produces superior hypertrophic stimulus compared to dumbbell reverse flies, especially at the stretched position.`,
+
+  'Cable Seated Row (normal grip)': `Cable rows place the lats and mid-back under constant tension throughout the full range of motion. Leaning slightly forward at full stretch and then driving elbows past the hips maximizes the lat's range of motion. A 2-second pause at peak contraction ensures full mid-back activation.`,
+
+  'Cable Seated Row (parallel grip)': `The neutral-grip seated cable row emphasizes the lower lats and teres major through a more natural shoulder position. Research shows the neutral grip produces slightly higher lat activation than overhand gripping. Drive elbows close to the body and squeeze the lats hard at peak contraction.`,
+
+  'Cable Straight Arm Pulldown': `The straight-arm pulldown isolates the lats by eliminating bicep contribution — the elbow remains fixed in a slightly bent position throughout. This exercise directly trains shoulder extension, the lat's primary function. Peak contraction occurs when the arms are at hip level; hold for 1 second for full lat activation.`,
+
+  'Cable Close Grip Front Lat Pulldown': `Close-grip lat pulldowns maximize lat recruitment through full shoulder adduction from overhead to hip level. The narrower grip allows greater elbow travel past the hip, ensuring the lats reach full shortening. Lean slightly back (~15°) and pull to the upper chest, not behind the neck.`,
+
+  'Cable Bar Lateral Pulldown (wide shoulder grip)': `Wide-grip lat pulldowns produce ~20% greater lat activation than shoulder-width grip due to increased shoulder adduction range. Lower the bar to your upper chest with a controlled 2-second descent. Avoid excessive lean-back — the movement should be driven by the lats, not momentum.`,
+
+  'Cable Triceps Pushdown': `The cable pushdown maintains constant triceps tension throughout the full range, unlike free weights that have varying resistance. All three heads of the triceps are activated, with the lateral head most strongly recruited during elbow extension. Lock elbows at the sides — avoid flaring to keep tension on the triceps.`,
+
+  'Cable Overhead Triceps Extension (rope attachment)': `Overhead cable extensions place the triceps long head in a fully stretched position — research by Stasinaki (2018) confirms overhead orientation produces superior long head hypertrophy vs. pushdowns. Keep elbows close to the head. The cable provides more consistent tension than dumbbells in this position.`,
+
+  'Cable Lying Triceps Extension': `Cable lying extensions maintain tension in the triceps' stretched position that free-weight skull crushers cannot replicate. The constant cable tension is ideal for maximizing time under tension in the long head of the triceps. Lower the handle behind the head slowly for a 3-second eccentric.`,
+
+  'Cable One Arm Curl': `Single-arm cable curls allow full supination through the curl with constant tension — this combination is biomechanically superior to barbell curls for bicep peak development. The cable maintains load at the top of the movement where a barbell loses tension. Supinate fully at peak contraction.`,
+
+  'Cable Standing Inner Curl': `The inner (cross-body) cable curl creates a unique line of pull that maximally recruits the short head of the biceps brachii and brachialis. Keeping the elbow slightly forward in the bottom position produces stretch-mediated hypertrophy in the short head. Excellent for building bicep thickness and width.`,
+
+  'Cable Kneeling Crunch': `Cable crunches are the most effective weighted ab exercise, allowing progressive overload directly on the rectus abdominis. Research shows weighted ab exercises produce significantly greater hypertrophy than unweighted variations. Round the spine fully into flexion — the movement must come from the abs, not hip flexion.`,
+
+  'Cable Standing Crunch': `Standing cable crunches train the abs against gravity and the cable in a functional standing position. Full spinal flexion from the extended position to full crunch ensures the abs work through their complete range. Pause at the bottom (fully crunched) for 1 second to prevent momentum.`,
+
+  // ── Smith Machine exercises (Kahuna) ──────────────────────────────────────
+  'Smith Chair Squat': `The Smith machine squat allows forward foot placement that would be unstable with a free barbell, shifting emphasis to the quads. Research by Cotterman (2005) shows Smith squats produce 43% greater quad activation than free barbell squats. The fixed bar path allows you to safely push to higher RPE without a spotter.`,
+
+  'Smith Seated Shoulder Press': `Smith machine shoulder press allows strict, vertical pressing mechanics without the stabilizer demand of dumbbells — this means more overload on the deltoids themselves. The fixed bar path eliminates lateral deviation, keeping maximum tension on the anterior and medial deltoids throughout. An excellent mass-builder for shoulder size.`,
+
+  'Smith Deadlift - Deadlift': `Smith machine deadlifts allow a more upright torso than conventional deadlifts, shifting emphasis from the lower back to the quadriceps and glutes. The fixed vertical path eliminates the bar path management required in conventional deadlifts, allowing focus on pure hip extension power. Ideal for hypertrophy-focused posterior chain work.`,
+
+  'Smith Calf Raise': `Smith machine calf raises allow maximum loading with complete safety, enabling single-leg variations that would be difficult with a free barbell. The constant load enables a full stretch at the bottom and peak contraction at the top. Perform slowly (3 seconds up, 3 seconds down) to overcome the gastrocnemius's high proportion of fast-twitch fibers.`,
 };
 
 // ─── Equipment Filtering ──────────────────────────────────────────────────────
@@ -88,6 +130,14 @@ const EQUIPMENT_PREFIXES = ['Barbell ', 'Dumbbell ', 'EZ ', 'Weighted ', 'Kettle
  */
 export function isAllowedByEquipment(exerciseName: string, equipment: string): boolean {
   if (equipment === 'full-gym') return true;
+
+  // Kahuna: all-in-one machine with Smith bar + 3 cable systems + pec fly
+  // Allows Cable and Smith exercises; excludes Lever/Sled (plate-loaded machines)
+  if (equipment === 'kahuna') {
+    const kahunaExcludes = ['Lever ', 'Sled '];
+    if (kahunaExcludes.some((p) => exerciseName.startsWith(p))) return false;
+    return true; // Cable, Smith, Barbell (smith), Dumbbell, Band all allowed
+  }
 
   // Exclude machine-only exercises for home-gym and bodyweight
   if (MACHINE_PREFIXES.some((p) => exerciseName.startsWith(p))) {

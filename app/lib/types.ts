@@ -4,7 +4,7 @@ export interface UserProfile {
   physiqueGoal: 'hypertrophy' | 'strength' | 'metabolic' | 'athletic';
   experienceLevel: 'beginner' | 'intermediate' | 'advanced';
   daysPerWeek: 5 | 6 | 7;
-  equipment: 'full-gym' | 'home-gym' | 'bodyweight';
+  equipment: 'full-gym' | 'home-gym' | 'kahuna' | 'bodyweight';
   age: number;
   biologicalSex: 'male' | 'female';
   injuries: string[];

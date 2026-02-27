@@ -92,6 +92,11 @@ const EQUIPMENT_OPTIONS = [
     desc: 'Commercial gym with all equipment',
   },
   {
+    id: 'kahuna' as const,
+    label: 'Kahuna / Smith Machine',
+    desc: 'All-in-one: smith bar, cables, pec fly',
+  },
+  {
     id: 'home-gym' as const,
     label: 'Home Gym',
     desc: 'Dumbbells, barbells, and a rack',
