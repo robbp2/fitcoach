@@ -4,7 +4,8 @@ export interface UserProfile {
   physiqueGoal: 'hypertrophy' | 'strength' | 'metabolic' | 'athletic';
   experienceLevel: 'beginner' | 'intermediate' | 'advanced';
   daysPerWeek: 5 | 6 | 7;
-  equipment: 'full-gym' | 'home-gym' | 'kahuna' | 'bodyweight';
+  equipment: 'full-gym' | 'home-gym' | 'bodyweight';
+  hasKahuna?: boolean; // home-gym add-on: smith machine + 3 independent cable systems
   age: number;
   biologicalSex: 'male' | 'female';
   injuries: string[];

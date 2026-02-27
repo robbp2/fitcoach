@@ -128,18 +128,18 @@ const EQUIPMENT_PREFIXES = ['Barbell ', 'Dumbbell ', 'EZ ', 'Weighted ', 'Kettle
 /**
  * Returns true if an exercise from the video library is allowed given the user's equipment.
  */
-export function isAllowedByEquipment(exerciseName: string, equipment: string): boolean {
+export function isAllowedByEquipment(exerciseName: string, equipment: string, hasKahuna?: boolean): boolean {
   if (equipment === 'full-gym') return true;
 
-  // Kahuna: all-in-one machine with Smith bar + 3 cable systems + pec fly
-  // Allows Cable and Smith exercises; excludes Lever/Sled (plate-loaded machines)
-  if (equipment === 'kahuna') {
+  // Home gym with Kahuna: smith bar + 3 cable systems + pec fly unlocks Cable/Smith exercises.
+  // Only Lever and Sled (plate-loaded machines) remain excluded.
+  if (equipment === 'home-gym' && hasKahuna) {
     const kahunaExcludes = ['Lever ', 'Sled '];
     if (kahunaExcludes.some((p) => exerciseName.startsWith(p))) return false;
-    return true; // Cable, Smith, Barbell (smith), Dumbbell, Band all allowed
+    return true;
   }
 
-  // Exclude machine-only exercises for home-gym and bodyweight
+  // Exclude machine-only exercises for standard home-gym and bodyweight
   if (MACHINE_PREFIXES.some((p) => exerciseName.startsWith(p))) {
     return false;
   }
@@ -458,7 +458,8 @@ export function selectExercisesForDay(
   goal: UserProfile['physiqueGoal'],
   isDeload: boolean,
   dayOffset: number = 0,
-  exerciseId_prefix: string = ''
+  exerciseId_prefix: string = '',
+  hasKahuna?: boolean
 ): Exercise[] {
   const volumeConfig = getVolumeConfig(goal, weekNumber, isDeload);
   const exercises: Exercise[] = [];
@@ -471,7 +472,7 @@ export function selectExercisesForDay(
       (v) =>
         v.muscleGroup === muscleGroup &&
         !v.isWarmup &&
-        isAllowedByEquipment(v.exerciseName, equipment)
+        isAllowedByEquipment(v.exerciseName, equipment, hasKahuna)
     );
 
     if (available.length === 0) continue;

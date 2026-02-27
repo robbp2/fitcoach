@@ -83,7 +83,8 @@ export function generateProgram(profile: UserProfile, videoLibrary?: VideoLibrar
         profile.physiqueGoal,
         isDeload,
         dayOffset,
-        `day${dayIndex}`
+        `day${dayIndex}`,
+        profile.hasKahuna
       );
 
       const warmup = selectWarmupForDay(dayTemplate.muscleGroups, lib, weekNum);
@@ -274,7 +275,8 @@ function extendProgram(program: WorkoutProgram, additionalWeeks: number): Workou
         program.profile.physiqueGoal,
         isDeload,
         dayOffset,
-        `day${dayIndex}`
+        `day${dayIndex}`,
+        program.profile.hasKahuna
       );
 
       const warmup = selectWarmupForDay(dayTemplate.muscleGroups, lib, weekNum);

@@ -20,6 +20,7 @@ interface FormData {
   experienceLevel: UserProfile['experienceLevel'] | null;
   daysPerWeek: UserProfile['daysPerWeek'] | null;
   equipment: UserProfile['equipment'] | null;
+  hasKahuna: boolean;
   age: number | null;
   biologicalSex: UserProfile['biologicalSex'] | null;
   injuries: string;
@@ -92,11 +93,6 @@ const EQUIPMENT_OPTIONS = [
     desc: 'Commercial gym with all equipment',
   },
   {
-    id: 'kahuna' as const,
-    label: 'Kahuna / Smith Machine',
-    desc: 'All-in-one: smith bar, cables, pec fly',
-  },
-  {
     id: 'home-gym' as const,
     label: 'Home Gym',
     desc: 'Dumbbells, barbells, and a rack',
@@ -126,6 +122,7 @@ export default function IntakeSurvey() {
     experienceLevel: null,
     daysPerWeek: null,
     equipment: null,
+    hasKahuna: false,
     age: null,
     biologicalSex: null,
     injuries: '',
@@ -160,6 +157,7 @@ export default function IntakeSurvey() {
       experienceLevel: form.experienceLevel!,
       daysPerWeek: form.daysPerWeek!,
       equipment: form.equipment!,
+      hasKahuna: form.equipment === 'home-gym' ? form.hasKahuna : false,
       age: form.age!,
       biologicalSex: form.biologicalSex!,
       injuries: form.injuries.trim() ? form.injuries.split(',').map((s) => s.trim()) : [],
@@ -351,6 +349,34 @@ export default function IntakeSurvey() {
                   );
                 })}
               </div>
+
+              {/* Kahuna add-on — shown only when Home Gym is selected */}
+              {form.equipment === 'home-gym' && (
+                <button
+                  onClick={() => setForm((f) => ({ ...f, hasKahuna: !f.hasKahuna }))}
+                  className={`w-full text-left p-5 rounded-2xl border backdrop-blur-md transition-all duration-300 flex items-center justify-between
+                    ${form.hasKahuna
+                      ? 'border-indigo-500 bg-indigo-500/10 shadow-[0_0_20px_rgba(99,102,241,0.15)]'
+                      : 'border-zinc-700/40 bg-zinc-900/20 hover:bg-zinc-800/30'
+                    }`}
+                >
+                  <div>
+                    <p className="text-sm font-medium text-white mb-0.5">
+                      I have a smith machine / cable system
+                    </p>
+                    <p className="text-xs text-zinc-500">
+                      e.g. Kahuna all-in-one — unlocks 36 cable + smith exercises
+                    </p>
+                  </div>
+                  <div className={`w-6 h-6 rounded-full border flex items-center justify-center shrink-0 ml-4 transition-all ${
+                    form.hasKahuna
+                      ? 'bg-indigo-500 border-indigo-500'
+                      : 'border-zinc-600 bg-transparent'
+                  }`}>
+                    {form.hasKahuna && <Check size={14} className="text-white" />}
+                  </div>
+                </button>
+              )}
             </div>
           )}
 
@@ -446,7 +472,9 @@ export default function IntakeSurvey() {
                 <div className="h-px bg-zinc-800/50" />
                 <SummaryRow label="Frequency" value={form.daysPerWeek ? `${form.daysPerWeek} days / week` : '—'} />
                 <div className="h-px bg-zinc-800/50" />
-                <SummaryRow label="Equipment" value={equipLabel(form.equipment)} />
+                <SummaryRow label="Equipment" value={
+                  equipLabel(form.equipment) + (form.equipment === 'home-gym' && form.hasKahuna ? ' + Kahuna' : '')
+                } />
                 {form.age && (
                   <>
                     <div className="h-px bg-zinc-800/50" />
