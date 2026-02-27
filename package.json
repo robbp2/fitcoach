@@ -5,12 +5,20 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "remotion:preview": "remotion preview remotion/index.ts",
+    "remotion:render": "remotion render remotion/index.ts",
+    "remotion:render-all": "node scripts/render-all-exercises.js"
   },
   "dependencies": {
+    "@mendable/firecrawl-js": "^4.12.0",
+    "@remotion/bundler": "^4.0.419",
+    "@remotion/cli": "^4.0.419",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "remotion": "^4.0.419",
+    "lucide-react": "^0.475.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

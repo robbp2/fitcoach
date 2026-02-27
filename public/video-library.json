@@ -1,0 +1,2305 @@
+[
+  {
+    "muscleGroup": "Forearms",
+    "exerciseName": "Barbell Reverse Wrist Curl (over-grip)",
+    "filename": "Barbell Reverse Wrist Curl (over-grip).mp4",
+    "relativePath": "men/Forearms/Barbell Reverse Wrist Curl (over-grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Forearms",
+    "exerciseName": "Barbell Standing Back Wrist Curl",
+    "filename": "Barbell Standing Back Wrist Curl.mp4",
+    "relativePath": "men/Forearms/Barbell Standing Back Wrist Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Forearms",
+    "exerciseName": "Dumbbell Behind Back Wrist Curl",
+    "filename": "Dumbbell Behind Back Wrist Curl.mp4",
+    "relativePath": "men/Forearms/Dumbbell Behind Back Wrist Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Forearms",
+    "exerciseName": "Dumbbell Over Bench Wrist Curl",
+    "filename": "Dumbbell Over Bench Wrist Curl.mp4",
+    "relativePath": "men/Forearms/Dumbbell Over Bench Wrist Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Forearms",
+    "exerciseName": "Dumbbell Seated Neutral Wrist Curl",
+    "filename": "Dumbbell Seated Neutral Wrist Curl.mp4",
+    "relativePath": "men/Forearms/Dumbbell Seated Neutral Wrist Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Forearms",
+    "exerciseName": "Stretching - Side Wrist Pull Stretch",
+    "filename": "Stretching - Side Wrist Pull Stretch.mp4",
+    "relativePath": "men/Forearms/Stretching - Side Wrist Pull Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Forearms",
+    "exerciseName": "Stretching - Wrist Circles",
+    "filename": "Stretching - Wrist Circles.mp4",
+    "relativePath": "men/Forearms/Stretching - Wrist Circles.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Forearms",
+    "exerciseName": "Weighted Standing Curl",
+    "filename": "Weighted Standing Curl.mp4",
+    "relativePath": "men/Forearms/Weighted Standing Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Band Bent Over Hip Extension",
+    "filename": "Band Bent Over Hip Extension.mp4",
+    "relativePath": "men/Hips/Band Bent Over Hip Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Band Hip Abduction",
+    "filename": "Band Hip Abduction.mp4",
+    "relativePath": "men/Hips/Band Hip Abduction.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Band Hip Adduction",
+    "filename": "Band Hip Adduction.mp4",
+    "relativePath": "men/Hips/Band Hip Adduction.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Band Leg Curl",
+    "filename": "Band Leg Curl.mp4",
+    "relativePath": "men/Hips/Band Leg Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Band Seated Leg Extension",
+    "filename": "Band Seated Leg Extension.mp4",
+    "relativePath": "men/Hips/Band Seated Leg Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Band Standing Hip Extension",
+    "filename": "Band Standing Hip Extension.mp4",
+    "relativePath": "men/Hips/Band Standing Hip Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Band Standing Leg Curl",
+    "filename": "Band Standing Leg Curl.mp4",
+    "relativePath": "men/Hips/Band Standing Leg Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Barbell Clean And Press",
+    "filename": "Barbell Clean And Press.mp4",
+    "relativePath": "men/Hips/Barbell Clean And Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Barbell Front Chest Squat",
+    "filename": "Barbell Front Chest Squat.mp4",
+    "relativePath": "men/Hips/Barbell Front Chest Squat.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Barbell Lunge",
+    "filename": "Barbell Lunge.mp4",
+    "relativePath": "men/Hips/Barbell Lunge.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Classic Barbell Squat",
+    "filename": "Classic Barbell Squat.mp4",
+    "relativePath": "men/Hips/Classic Barbell Squat.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Close Feet Leg Press",
+    "filename": "Close Feet Leg Press.mp4",
+    "relativePath": "men/Hips/Close Feet Leg Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Dumbbell Bar Grip Sumo Squat",
+    "filename": "Dumbbell Bar Grip Sumo Squat.mp4",
+    "relativePath": "men/Hips/Dumbbell Bar Grip Sumo Squat.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Dumbbell Front Squat",
+    "filename": "Dumbbell Front Squat.mp4",
+    "relativePath": "men/Hips/Dumbbell Front Squat.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Dumbbell Goblet Squat",
+    "filename": "Dumbbell Goblet Squat.mp4",
+    "relativePath": "men/Hips/Dumbbell Goblet Squat.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Dumbbell Lunge",
+    "filename": "Dumbbell Lunge.mp4",
+    "relativePath": "men/Hips/Dumbbell Lunge.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Dumbbell Lying Femoral",
+    "filename": "Dumbbell Lying Femoral.mp4",
+    "relativePath": "men/Hips/Dumbbell Lying Femoral.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Dumbbell Single Leg Squat",
+    "filename": "Dumbbell Single Leg Squat.mp4",
+    "relativePath": "men/Hips/Dumbbell Single Leg Squat.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Dumbbell Squat",
+    "filename": "Dumbbell Squat.mp4",
+    "relativePath": "men/Hips/Dumbbell Squat.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Lever Horizontal Leg Press",
+    "filename": "Lever Horizontal Leg Press.mp4",
+    "relativePath": "men/Hips/Lever Horizontal Leg Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Lever Kneeling Leg Curl",
+    "filename": "Lever Kneeling Leg Curl.mp4",
+    "relativePath": "men/Hips/Lever Kneeling Leg Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Lever Leg Extension",
+    "filename": "Lever Leg Extension.mp4",
+    "relativePath": "men/Hips/Lever Leg Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Lever Lying Leg Curl",
+    "filename": "Lever Lying Leg Curl.mp4",
+    "relativePath": "men/Hips/Lever Lying Leg Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Lever Seated Hip Abduction",
+    "filename": "Lever Seated Hip Abduction.mp4",
+    "relativePath": "men/Hips/Lever Seated Hip Abduction.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Lever Seated Hip Adduction",
+    "filename": "Lever Seated Hip Adduction.mp4",
+    "relativePath": "men/Hips/Lever Seated Hip Adduction.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Lever Seated Leg Curl",
+    "filename": "Lever Seated Leg Curl.mp4",
+    "relativePath": "men/Hips/Lever Seated Leg Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Lever Standing Hip Extension",
+    "filename": "Lever Standing Hip Extension.mp4",
+    "relativePath": "men/Hips/Lever Standing Hip Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Lever Standing Rear Kick",
+    "filename": "Lever Standing Rear Kick.mp4",
+    "relativePath": "men/Hips/Lever Standing Rear Kick.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Rear Decline Bridge",
+    "filename": "Rear Decline Bridge.mp4",
+    "relativePath": "men/Hips/Rear Decline Bridge.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Sled 45 Degree Leg Wide Press",
+    "filename": "Sled 45 Degree Leg Wide Press.mp4",
+    "relativePath": "men/Hips/Sled 45 Degree Leg Wide Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Sled Hack Squat",
+    "filename": "Sled Hack Squat.mp4",
+    "relativePath": "men/Hips/Sled Hack Squat.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Smith Chair Squat",
+    "filename": "Smith Chair Squat.mp4",
+    "relativePath": "men/Hips/Smith Chair Squat.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Smith Leg Press",
+    "filename": "Smith Leg Press.mp4",
+    "relativePath": "men/Hips/Smith Leg Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Squat",
+    "filename": "Squat.mp4",
+    "relativePath": "men/Hips/Squat.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Adductor stretch",
+    "filename": "Stretching - Adductor stretch.mp4",
+    "relativePath": "men/Hips/Stretching - Adductor stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - All Fours Squad Stretch",
+    "filename": "Stretching - All Fours Squad Stretch.mp4",
+    "relativePath": "men/Hips/Stretching - All Fours Squad Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Boat Stretch",
+    "filename": "Stretching - Boat Stretch.mp4",
+    "relativePath": "men/Hips/Stretching - Boat Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Ceiling Look Stretch",
+    "filename": "Stretching - Ceiling Look Stretch.mp4",
+    "relativePath": "men/Hips/Stretching - Ceiling Look Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Crossover Kneeling Hip Flexor Stretch",
+    "filename": "Stretching - Crossover Kneeling Hip Flexor Stretch.mp4",
+    "relativePath": "men/Hips/Stretching - Crossover Kneeling Hip Flexor Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Hamstring Stretch",
+    "filename": "Stretching - Hamstring Stretch.mp4",
+    "relativePath": "men/Hips/Stretching - Hamstring Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Hip Circles Stretch",
+    "filename": "Stretching - Hip Circles Stretch.mp4",
+    "relativePath": "men/Hips/Stretching - Hip Circles Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Hip Extension Stretch",
+    "filename": "Stretching - Hip Extension Stretch.mp4",
+    "relativePath": "men/Hips/Stretching - Hip Extension Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Hip Flexor Stretch Rear foot elevated",
+    "filename": "Stretching - Hip Flexor Stretch Rear foot elevated.mp4",
+    "relativePath": "men/Hips/Stretching - Hip Flexor Stretch Rear foot elevated.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Hip Flexor and Quad Stretch",
+    "filename": "Stretching - Hip Flexor and Quad Stretch.mp4",
+    "relativePath": "men/Hips/Stretching - Hip Flexor and Quad Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Knee Raise",
+    "filename": "Stretching - Knee Raise.mp4",
+    "relativePath": "men/Hips/Stretching - Knee Raise.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Quadriceps lying stretch",
+    "filename": "Stretching - Quadriceps lying stretch.mp4",
+    "relativePath": "men/Hips/Stretching - Quadriceps lying stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Quadriceps stretch",
+    "filename": "Stretching - Quadriceps stretch.mp4",
+    "relativePath": "men/Hips/Stretching - Quadriceps stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Stretching - Runners Stretch",
+    "filename": "Stretching - Runners Stretch.mp4",
+    "relativePath": "men/Hips/Stretching - Runners Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Hips",
+    "exerciseName": "Weighted Sissy Squat",
+    "filename": "Weighted Sissy Squat.mp4",
+    "relativePath": "men/Hips/Weighted Sissy Squat.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Band Bent-over Rear Lateral Raise",
+    "filename": "Band Bent-over Rear Lateral Raise.mp4",
+    "relativePath": "men/Shoulders/Band Bent-over Rear Lateral Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Band One Arm Forward Raise",
+    "filename": "Band One Arm Forward Raise.mp4",
+    "relativePath": "men/Shoulders/Band One Arm Forward Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Band Standing Rear Delt Row",
+    "filename": "Band Standing Rear Delt Row.mp4",
+    "relativePath": "men/Shoulders/Band Standing Rear Delt Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Barbell Front Raise",
+    "filename": "Barbell Front Raise.mp4",
+    "relativePath": "men/Shoulders/Barbell Front Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Barbell Seated Behind Head Military Press",
+    "filename": "Barbell Seated Behind Head Military Press.mp4",
+    "relativePath": "men/Shoulders/Barbell Seated Behind Head Military Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Barbell Upright Row (wide-grip)",
+    "filename": "Barbell Upright Row (wide-grip).mp4",
+    "relativePath": "men/Shoulders/Barbell Upright Row (wide-grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Cable Crossover Reverse Fly",
+    "filename": "Cable Crossover Reverse Fly.mp4",
+    "relativePath": "men/Shoulders/Cable Crossover Reverse Fly.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Cable Front Raise",
+    "filename": "Cable Front Raise.mp4",
+    "relativePath": "men/Shoulders/Cable Front Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Cable Lateral Raise",
+    "filename": "Cable Lateral Raise.mp4",
+    "relativePath": "men/Shoulders/Cable Lateral Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Cable One Arm Forward Raise",
+    "filename": "Cable One Arm Forward Raise.mp4",
+    "relativePath": "men/Shoulders/Cable One Arm Forward Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Cable One Arm Lateral Raise",
+    "filename": "Cable One Arm Lateral Raise.mp4",
+    "relativePath": "men/Shoulders/Cable One Arm Lateral Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Cable Rear Delt Row (with rope)",
+    "filename": "Cable Rear Delt Row (with rope).mp4",
+    "relativePath": "men/Shoulders/Cable Rear Delt Row (with rope).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Alternate Shoulder Press",
+    "filename": "Dumbbell Alternate Shoulder Press.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Alternate Shoulder Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Arnold Press",
+    "filename": "Dumbbell Arnold Press.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Arnold Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Bench Seated Press",
+    "filename": "Dumbbell Bench Seated Press.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Bench Seated Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Front Raise",
+    "filename": "Dumbbell Front Raise.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Front Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Incline Hammer Press",
+    "filename": "Dumbbell Incline Hammer Press.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Incline Hammer Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Incline Rear Lateral Raise",
+    "filename": "Dumbbell Incline Rear Lateral Raise.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Incline Rear Lateral Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Iron Cross",
+    "filename": "Dumbbell Iron Cross.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Iron Cross.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Lateral Raise",
+    "filename": "Dumbbell Lateral Raise.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Lateral Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell One Arm Lateral Raise",
+    "filename": "Dumbbell One Arm Lateral Raise.mp4",
+    "relativePath": "men/Shoulders/Dumbbell One Arm Lateral Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Rear Delt Row",
+    "filename": "Dumbbell Rear Delt Row.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Rear Delt Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Rear Lateral Raise",
+    "filename": "Dumbbell Rear Lateral Raise.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Rear Lateral Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Seated Front Raise",
+    "filename": "Dumbbell Seated Front Raise.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Seated Front Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Seated Lateral Raise",
+    "filename": "Dumbbell Seated Lateral Raise.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Seated Lateral Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Dumbbell Upright Row",
+    "filename": "Dumbbell Upright Row.mp4",
+    "relativePath": "men/Shoulders/Dumbbell Upright Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "EZ Barbell Anti Gravity Press",
+    "filename": "EZ Barbell Anti Gravity Press.mp4",
+    "relativePath": "men/Shoulders/EZ Barbell Anti Gravity Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Lever Lateral Raise",
+    "filename": "Lever Lateral Raise.mp4",
+    "relativePath": "men/Shoulders/Lever Lateral Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Lever Military Press",
+    "filename": "Lever Military Press.mp4",
+    "relativePath": "men/Shoulders/Lever Military Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Lever Seated Reverse Fly",
+    "filename": "Lever Seated Reverse Fly.mp4",
+    "relativePath": "men/Shoulders/Lever Seated Reverse Fly.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Military Press",
+    "filename": "Military Press.mp4",
+    "relativePath": "men/Shoulders/Military Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Smith Seated Shoulder Press",
+    "filename": "Smith Seated Shoulder Press.mp4",
+    "relativePath": "men/Shoulders/Smith Seated Shoulder Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Stretching - Band Warm-up Shoulder Stretch",
+    "filename": "Stretching - Band Warm-up Shoulder Stretch.mp4",
+    "relativePath": "men/Shoulders/Stretching - Band Warm-up Shoulder Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Stretching - Rear Deltoid Stretch",
+    "filename": "Stretching - Rear Deltoid Stretch.mp4",
+    "relativePath": "men/Shoulders/Stretching - Rear Deltoid Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Shoulders",
+    "exerciseName": "Stretching - Seated Shoulder Flexor Depresor Retractor",
+    "filename": "Stretching - Seated Shoulder Flexor Depresor Retractor.mp4",
+    "relativePath": "men/Shoulders/Stretching - Seated Shoulder Flexor Depresor Retractor.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Trapezius",
+    "exerciseName": "Barbell Rear Delt Raise",
+    "filename": "Barbell Rear Delt Raise.mp4",
+    "relativePath": "men/Trapezius/Barbell Rear Delt Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Trapezius",
+    "exerciseName": "Barbell Shrug",
+    "filename": "Barbell Shrug.mp4",
+    "relativePath": "men/Trapezius/Barbell Shrug.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Trapezius",
+    "exerciseName": "Dumbbell Incline Shrug",
+    "filename": "Dumbbell Incline Shrug.mp4",
+    "relativePath": "men/Trapezius/Dumbbell Incline Shrug.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Trapezius",
+    "exerciseName": "Dumbbell Shrug",
+    "filename": "Dumbbell Shrug.mp4",
+    "relativePath": "men/Trapezius/Dumbbell Shrug.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Trapezius",
+    "exerciseName": "Lever Shrug",
+    "filename": "Lever Shrug.mp4",
+    "relativePath": "men/Trapezius/Lever Shrug.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Trapezius",
+    "exerciseName": "Scapula Dips",
+    "filename": "Scapula Dips.mp4",
+    "relativePath": "men/Trapezius/Scapula Dips.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Trapezius",
+    "exerciseName": "Stretching - Neck Side Stretch",
+    "filename": "Stretching - Neck Side Stretch.mp4",
+    "relativePath": "men/Trapezius/Stretching - Neck Side Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Band Overhead Triceps Extension",
+    "filename": "Band Overhead Triceps Extension.mp4",
+    "relativePath": "men/Triceps/Band Overhead Triceps Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Band Side Triceps Pushdown",
+    "filename": "Band Side Triceps Pushdown.mp4",
+    "relativePath": "men/Triceps/Band Side Triceps Pushdown.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Band Triceps Pushdown",
+    "filename": "Band Triceps Pushdown.mp4",
+    "relativePath": "men/Triceps/Band Triceps Pushdown.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Barbell Close Grip Bench Press",
+    "filename": "Barbell Close Grip Bench Press.mp4",
+    "relativePath": "men/Triceps/Barbell Close Grip Bench Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Bench Dips",
+    "filename": "Bench Dips.mp4",
+    "relativePath": "men/Triceps/Bench Dips.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Cable Lying Triceps Extension",
+    "filename": "Cable Lying Triceps Extension.mp4",
+    "relativePath": "men/Triceps/Cable Lying Triceps Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Cable Overhead Triceps Extension (rope attachment)",
+    "filename": "Cable Overhead Triceps Extension (rope attachment).mp4",
+    "relativePath": "men/Triceps/Cable Overhead Triceps Extension (rope attachment).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Cable Pushdown (rope attachment)",
+    "filename": "Cable Pushdown (rope attachment).mp4",
+    "relativePath": "men/Triceps/Cable Pushdown (rope attachment).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Cable Rope High Pulley Overhead Triceps Extension",
+    "filename": "Cable Rope High Pulley Overhead Triceps Extension.mp4",
+    "relativePath": "men/Triceps/Cable Rope High Pulley Overhead Triceps Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Cable Standing One Arm Triceps Extension",
+    "filename": "Cable Standing One Arm Triceps Extension.mp4",
+    "relativePath": "men/Triceps/Cable Standing One Arm Triceps Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Cable Triceps Pushdown",
+    "filename": "Cable Triceps Pushdown.mp4",
+    "relativePath": "men/Triceps/Cable Triceps Pushdown.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Close Grip Push-ups",
+    "filename": "Close Grip Push-ups.mp4",
+    "relativePath": "men/Triceps/Close Grip Push-ups.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Dumbbell Close Grip Press",
+    "filename": "Dumbbell Close Grip Press.mp4",
+    "relativePath": "men/Triceps/Dumbbell Close Grip Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Dumbbell Incline Triceps Extension",
+    "filename": "Dumbbell Incline Triceps Extension.mp4",
+    "relativePath": "men/Triceps/Dumbbell Incline Triceps Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Dumbbell Kickback",
+    "filename": "Dumbbell Kickback.mp4",
+    "relativePath": "men/Triceps/Dumbbell Kickback.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Dumbbell Lying Alternate Extension",
+    "filename": "Dumbbell Lying Alternate Extension.mp4",
+    "relativePath": "men/Triceps/Dumbbell Lying Alternate Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Dumbbell Lying Triceps Extension",
+    "filename": "Dumbbell Lying Triceps Extension.mp4",
+    "relativePath": "men/Triceps/Dumbbell Lying Triceps Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Dumbbell One Arm Triceps Extension",
+    "filename": "Dumbbell One Arm Triceps Extension.mp4",
+    "relativePath": "men/Triceps/Dumbbell One Arm Triceps Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Dumbbell Pronate-grip Triceps Extension",
+    "filename": "Dumbbell Pronate-grip Triceps Extension.mp4",
+    "relativePath": "men/Triceps/Dumbbell Pronate-grip Triceps Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Dumbbell Seated Kickback",
+    "filename": "Dumbbell Seated Kickback.mp4",
+    "relativePath": "men/Triceps/Dumbbell Seated Kickback.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Dumbbell Seated Triceps Extension",
+    "filename": "Dumbbell Seated Triceps Extension.mp4",
+    "relativePath": "men/Triceps/Dumbbell Seated Triceps Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "EZ Barbell Lying Triceps Extension",
+    "filename": "EZ Barbell Lying Triceps Extension.mp4",
+    "relativePath": "men/Triceps/EZ Barbell Lying Triceps Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Lever Seated Dips",
+    "filename": "Lever Seated Dips.mp4",
+    "relativePath": "men/Triceps/Lever Seated Dips.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Lever Triceps Extension (neutral grip)",
+    "filename": "Lever Triceps Extension (neutral grip).mp4",
+    "relativePath": "men/Triceps/Lever Triceps Extension (neutral grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Lever Triceps Extension",
+    "filename": "Lever Triceps Extension.mp4",
+    "relativePath": "men/Triceps/Lever Triceps Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Old School Reverse Extensions",
+    "filename": "Old School Reverse Extensions.mp4",
+    "relativePath": "men/Triceps/Old School Reverse Extensions.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Stretching - Kneeling Triceps Extension",
+    "filename": "Stretching - Kneeling Triceps Extension.mp4",
+    "relativePath": "men/Triceps/Stretching - Kneeling Triceps Extension.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "Triceps",
+    "exerciseName": "Stretching - Reverse Dip",
+    "filename": "Stretching - Reverse Dip.mp4",
+    "relativePath": "men/Triceps/Stretching - Reverse Dip.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "45 Degree Bycicle Twisting Crunch (1)",
+    "filename": "45 Degree Bycicle Twisting Crunch (1).mp4",
+    "relativePath": "men/abs/45 Degree Bycicle Twisting Crunch (1).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "45 Degree Bycicle Twisting Crunch",
+    "filename": "45 Degree Bycicle Twisting Crunch.mp4",
+    "relativePath": "men/abs/45 Degree Bycicle Twisting Crunch.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "45 Degree Side Bend",
+    "filename": "45 Degree Side Bend.mp4",
+    "relativePath": "men/abs/45 Degree Side Bend.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Air Twisting Crunch",
+    "filename": "Air Twisting Crunch.mp4",
+    "relativePath": "men/abs/Air Twisting Crunch.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Band Decline Sit-ups",
+    "filename": "Band Decline Sit-ups.mp4",
+    "relativePath": "men/abs/Band Decline Sit-ups.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Band Side Bend",
+    "filename": "Band Side Bend.mp4",
+    "relativePath": "men/abs/Band Side Bend.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Band Standing Crunch",
+    "filename": "Band Standing Crunch.mp4",
+    "relativePath": "men/abs/Band Standing Crunch.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Band Standing Lift",
+    "filename": "Band Standing Lift.mp4",
+    "relativePath": "men/abs/Band Standing Lift.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Band Twist (Up-down)",
+    "filename": "Band Twist (Up-down).mp4",
+    "relativePath": "men/abs/Band Twist (Up-down).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Band Twist",
+    "filename": "Band Twist.mp4",
+    "relativePath": "men/abs/Band Twist.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Bench Leg Raise",
+    "filename": "Bench Leg Raise.mp4",
+    "relativePath": "men/abs/Bench Leg Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Bent Knee Lying Twist",
+    "filename": "Bent Knee Lying Twist.mp4",
+    "relativePath": "men/abs/Bent Knee Lying Twist.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Cable Kneeling Crunch",
+    "filename": "Cable Kneeling Crunch.mp4",
+    "relativePath": "men/abs/Cable Kneeling Crunch.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Cable Standing Crunch",
+    "filename": "Cable Standing Crunch.mp4",
+    "relativePath": "men/abs/Cable Standing Crunch.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Cable Standing Lift",
+    "filename": "Cable Standing Lift.mp4",
+    "relativePath": "men/abs/Cable Standing Lift.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Cable Twist (up-down)",
+    "filename": "Cable Twist (up-down).mp4",
+    "relativePath": "men/abs/Cable Twist (up-down).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Crunch (on bench)",
+    "filename": "Crunch (on bench).mp4",
+    "relativePath": "men/abs/Crunch (on bench).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Dumbbell Side Bend",
+    "filename": "Dumbbell Side Bend.mp4",
+    "relativePath": "men/abs/Dumbbell Side Bend.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Hanging Leg Hip Raise",
+    "filename": "Hanging Leg Hip Raise.mp4",
+    "relativePath": "men/abs/Hanging Leg Hip Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Hanging Straight Leg Raise",
+    "filename": "Hanging Straight Leg Raise.mp4",
+    "relativePath": "men/abs/Hanging Straight Leg Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Incline Leg Hip Raise",
+    "filename": "Incline Leg Hip Raise.mp4",
+    "relativePath": "men/abs/Incline Leg Hip Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Landmine 180",
+    "filename": "Landmine 180.mp4",
+    "relativePath": "men/abs/Landmine 180.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Lever Seated Crunch (1)",
+    "filename": "Lever Seated Crunch (1).mp4",
+    "relativePath": "men/abs/Lever Seated Crunch (1).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Lever Seated Crunch",
+    "filename": "Lever Seated Crunch.mp4",
+    "relativePath": "men/abs/Lever Seated Crunch.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Lever Seated Leg Raise Crunch",
+    "filename": "Lever Seated Leg Raise Crunch.mp4",
+    "relativePath": "men/abs/Lever Seated Leg Raise Crunch.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Lying Floor Leg Raise",
+    "filename": "Lying Floor Leg Raise.mp4",
+    "relativePath": "men/abs/Lying Floor Leg Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Lying Straight Leg Raise",
+    "filename": "Lying Straight Leg Raise.mp4",
+    "relativePath": "men/abs/Lying Straight Leg Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Otis-ups",
+    "filename": "Otis-ups.mp4",
+    "relativePath": "men/abs/Otis-ups.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Side Bridge - Side Plank",
+    "filename": "Side Bridge - Side Plank.mp4",
+    "relativePath": "men/abs/Side Bridge - Side Plank.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Sit-up On Exercise Ball",
+    "filename": "Sit-up On Exercise Ball.mp4",
+    "relativePath": "men/abs/Sit-up On Exercise Ball.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Sit-ups",
+    "filename": "Sit-ups.mp4",
+    "relativePath": "men/abs/Sit-ups.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Spell Caster",
+    "filename": "Spell Caster.mp4",
+    "relativePath": "men/abs/Spell Caster.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Stretching - Chin-to-chest Stretch",
+    "filename": "Stretching - Chin-to-chest Stretch.mp4",
+    "relativePath": "men/abs/Stretching - Chin-to-chest Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Stretching - Iron Cross Stretch",
+    "filename": "Stretching - Iron Cross Stretch.mp4",
+    "relativePath": "men/abs/Stretching - Iron Cross Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Stretching - Seated Twist (straight arm)",
+    "filename": "Stretching - Seated Twist (straight arm).mp4",
+    "relativePath": "men/abs/Stretching - Seated Twist (straight arm).mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Stretching - Spinal Stretch On Exercise Ball",
+    "filename": "Stretching - Spinal Stretch On Exercise Ball.mp4",
+    "relativePath": "men/abs/Stretching - Spinal Stretch On Exercise Ball.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Stretching - Standing Side Bend (bent arm)",
+    "filename": "Stretching - Standing Side Bend (bent arm).mp4",
+    "relativePath": "men/abs/Stretching - Standing Side Bend (bent arm).mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Twisting Crunch",
+    "filename": "Twisting Crunch.mp4",
+    "relativePath": "men/abs/Twisting Crunch.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "V-up",
+    "filename": "V-up.mp4",
+    "relativePath": "men/abs/V-up.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Vertical Leg Raise (on parallel bars)",
+    "filename": "Vertical Leg Raise (on parallel bars).mp4",
+    "relativePath": "men/abs/Vertical Leg Raise (on parallel bars).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "abs",
+    "exerciseName": "Weighted Leg Extension Crunch",
+    "filename": "Weighted Leg Extension Crunch.mp4",
+    "relativePath": "men/abs/Weighted Leg Extension Crunch.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "45 Degree Hyperextension",
+    "filename": "45 Degree Hyperextension.mp4",
+    "relativePath": "men/back/45 Degree Hyperextension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Band Assisted Pull-up",
+    "filename": "Band Assisted Pull-up.mp4",
+    "relativePath": "men/back/Band Assisted Pull-up.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Band Bent-over Row",
+    "filename": "Band Bent-over Row.mp4",
+    "relativePath": "men/back/Band Bent-over Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Band Kneeling One Arm Pulldown",
+    "filename": "Band Kneeling One Arm Pulldown.mp4",
+    "relativePath": "men/back/Band Kneeling One Arm Pulldown.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Band One Arm Twisting Seated Row",
+    "filename": "Band One Arm Twisting Seated Row.mp4",
+    "relativePath": "men/back/Band One Arm Twisting Seated Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Band One Leg Kickback Bent Position",
+    "filename": "Band One Leg Kickback Bent Position.mp4",
+    "relativePath": "men/back/Band One Leg Kickback Bent Position.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Band Pull Through",
+    "filename": "Band Pull Through.mp4",
+    "relativePath": "men/back/Band Pull Through.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Band Seated Row",
+    "filename": "Band Seated Row.mp4",
+    "relativePath": "men/back/Band Seated Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Band Straight Back Seated Row",
+    "filename": "Band Straight Back Seated Row.mp4",
+    "relativePath": "men/back/Band Straight Back Seated Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Barbell Bent-over Row Overgrip",
+    "filename": "Barbell Bent-over Row Overgrip.mp4",
+    "relativePath": "men/back/Barbell Bent-over Row Overgrip.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Barbell Straight Leg Deadlift",
+    "filename": "Barbell Straight Leg Deadlift.mp4",
+    "relativePath": "men/back/Barbell Straight Leg Deadlift.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Barbell Underhand Bent-over Row",
+    "filename": "Barbell Underhand Bent-over Row.mp4",
+    "relativePath": "men/back/Barbell Underhand Bent-over Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Bench Pull-ups",
+    "filename": "Bench Pull-ups.mp4",
+    "relativePath": "men/back/Bench Pull-ups.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable Bar Lateral Pulldown (reverse-grip)",
+    "filename": "Cable Bar Lateral Pulldown (reverse-grip).mp4",
+    "relativePath": "men/back/Cable Bar Lateral Pulldown (reverse-grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable Bar Lateral Pulldown (wide shoulder grip)",
+    "filename": "Cable Bar Lateral Pulldown (wide shoulder grip).mp4",
+    "relativePath": "men/back/Cable Bar Lateral Pulldown (wide shoulder grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable Close Grip Front Lat Pulldown",
+    "filename": "Cable Close Grip Front Lat Pulldown.mp4",
+    "relativePath": "men/back/Cable Close Grip Front Lat Pulldown.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable One Arm Lateral Pulldown",
+    "filename": "Cable One Arm Lateral Pulldown.mp4",
+    "relativePath": "men/back/Cable One Arm Lateral Pulldown.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable One Arm Twisting Seated Row",
+    "filename": "Cable One Arm Twisting Seated Row.mp4",
+    "relativePath": "men/back/Cable One Arm Twisting Seated Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable Pulldown",
+    "filename": "Cable Pulldown.mp4",
+    "relativePath": "men/back/Cable Pulldown.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable Seated High Row (V-bar)",
+    "filename": "Cable Seated High Row (V-bar).mp4",
+    "relativePath": "men/back/Cable Seated High Row (V-bar).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable Seated Row (normal grip)",
+    "filename": "Cable Seated Row (normal grip).mp4",
+    "relativePath": "men/back/Cable Seated Row (normal grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable Seated Row (parallel grip)",
+    "filename": "Cable Seated Row (parallel grip).mp4",
+    "relativePath": "men/back/Cable Seated Row (parallel grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable Seated Row (wide-grip)",
+    "filename": "Cable Seated Row (wide-grip).mp4",
+    "relativePath": "men/back/Cable Seated Row (wide-grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable Straight Arm Pulldown",
+    "filename": "Cable Straight Arm Pulldown.mp4",
+    "relativePath": "men/back/Cable Straight Arm Pulldown.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable Straight Back Seated High Row (reverse-grip)",
+    "filename": "Cable Straight Back Seated High Row (reverse-grip).mp4",
+    "relativePath": "men/back/Cable Straight Back Seated High Row (reverse-grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cable Straight Back Seated Row (V-grip)",
+    "filename": "Cable Straight Back Seated Row (V-grip).mp4",
+    "relativePath": "men/back/Cable Straight Back Seated Row (V-grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Cambered Bar Lying Row",
+    "filename": "Cambered Bar Lying Row.mp4",
+    "relativePath": "men/back/Cambered Bar Lying Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Chin-ups  Pull-Ups",
+    "filename": "Chin-ups  Pull-Ups.mp4",
+    "relativePath": "men/back/Chin-ups  Pull-Ups.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Chin-ups (narrow parallel grip)",
+    "filename": "Chin-ups (narrow parallel grip).mp4",
+    "relativePath": "men/back/Chin-ups (narrow parallel grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Close Grip Chin-up",
+    "filename": "Close Grip Chin-up.mp4",
+    "relativePath": "men/back/Close Grip Chin-up.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Commando Pull-up",
+    "filename": "Commando Pull-up.mp4",
+    "relativePath": "men/back/Commando Pull-up.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Dumbbell Bent-over Row",
+    "filename": "Dumbbell Bent-over Row.mp4",
+    "relativePath": "men/back/Dumbbell Bent-over Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Dumbbell Deadlift",
+    "filename": "Dumbbell Deadlift.mp4",
+    "relativePath": "men/back/Dumbbell Deadlift.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Dumbbell Hammer Grip Incline Bench Row",
+    "filename": "Dumbbell Hammer Grip Incline Bench Row.mp4",
+    "relativePath": "men/back/Dumbbell Hammer Grip Incline Bench Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Dumbbell Incline Row",
+    "filename": "Dumbbell Incline Row.mp4",
+    "relativePath": "men/back/Dumbbell Incline Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Dumbbell Lying Rear Delt Row",
+    "filename": "Dumbbell Lying Rear Delt Row.mp4",
+    "relativePath": "men/back/Dumbbell Lying Rear Delt Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Dumbbell Palm Rotational Bent Over Row",
+    "filename": "Dumbbell Palm Rotational Bent Over Row.mp4",
+    "relativePath": "men/back/Dumbbell Palm Rotational Bent Over Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Dumbbell Reverse Grip Row",
+    "filename": "Dumbbell Reverse Grip Row.mp4",
+    "relativePath": "men/back/Dumbbell Reverse Grip Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Dumbbell Stiff Leg Deadlift",
+    "filename": "Dumbbell Stiff Leg Deadlift.mp4",
+    "relativePath": "men/back/Dumbbell Stiff Leg Deadlift.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Hammer Grip Pull-up",
+    "filename": "Hammer Grip Pull-up.mp4",
+    "relativePath": "men/back/Hammer Grip Pull-up.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Inverted Row Between Chairs",
+    "filename": "Inverted Row Between Chairs.mp4",
+    "relativePath": "men/back/Inverted Row Between Chairs.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Inverted Row With Straps",
+    "filename": "Inverted Row With Straps.mp4",
+    "relativePath": "men/back/Inverted Row With Straps.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Kettlebell Deadlift",
+    "filename": "Kettlebell Deadlift.mp4",
+    "relativePath": "men/back/Kettlebell Deadlift.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Lever Back Extension",
+    "filename": "Lever Back Extension.mp4",
+    "relativePath": "men/back/Lever Back Extension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Lever High Row",
+    "filename": "Lever High Row.mp4",
+    "relativePath": "men/back/Lever High Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Lever Reverse Hyperextension",
+    "filename": "Lever Reverse Hyperextension.mp4",
+    "relativePath": "men/back/Lever Reverse Hyperextension.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Lever Reverse T-Bar Row",
+    "filename": "Lever Reverse T-Bar Row.mp4",
+    "relativePath": "men/back/Lever Reverse T-Bar Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Lever T-bar Row",
+    "filename": "Lever T-bar Row.mp4",
+    "relativePath": "men/back/Lever T-bar Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Pull-up (shoulder grip)",
+    "filename": "Pull-up (shoulder grip).mp4",
+    "relativePath": "men/back/Pull-up (shoulder grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Pull-up (wide back grip)",
+    "filename": "Pull-up (wide back grip).mp4",
+    "relativePath": "men/back/Pull-up (wide back grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Pull-up (wide front grip)",
+    "filename": "Pull-up (wide front grip).mp4",
+    "relativePath": "men/back/Pull-up (wide front grip).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Reverse Grip Machine Lat Pulldown",
+    "filename": "Reverse Grip Machine Lat Pulldown.mp4",
+    "relativePath": "men/back/Reverse Grip Machine Lat Pulldown.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Reverse Grip Pull-up",
+    "filename": "Reverse Grip Pull-up.mp4",
+    "relativePath": "men/back/Reverse Grip Pull-up.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Ring High Row",
+    "filename": "Ring High Row.mp4",
+    "relativePath": "men/back/Ring High Row.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Single Dumbbell Stiff Leg Deadlift",
+    "filename": "Single Dumbbell Stiff Leg Deadlift.mp4",
+    "relativePath": "men/back/Single Dumbbell Stiff Leg Deadlift.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Smith Deadlift - Deadlift (1)",
+    "filename": "Smith Deadlift - Deadlift (1).mp4",
+    "relativePath": "men/back/Smith Deadlift - Deadlift (1).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Smith Deadlift - Deadlift",
+    "filename": "Smith Deadlift - Deadlift.mp4",
+    "relativePath": "men/back/Smith Deadlift - Deadlift.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Dynamic Back Stretch",
+    "filename": "Stretching - Dynamic Back Stretch.mp4",
+    "relativePath": "men/back/Stretching - Dynamic Back Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Elbows Back Stretch",
+    "filename": "Stretching - Elbows Back Stretch.mp4",
+    "relativePath": "men/back/Stretching - Elbows Back Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Kneeling Lat Stretch",
+    "filename": "Stretching - Kneeling Lat Stretch.mp4",
+    "relativePath": "men/back/Stretching - Kneeling Lat Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Middle Back Stretch (1)",
+    "filename": "Stretching - Middle Back Stretch (1).mp4",
+    "relativePath": "men/back/Stretching - Middle Back Stretch (1).mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Middle Back Stretch",
+    "filename": "Stretching - Middle Back Stretch.mp4",
+    "relativePath": "men/back/Stretching - Middle Back Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Seated Lower Back Stretch",
+    "filename": "Stretching - Seated Lower Back Stretch.mp4",
+    "relativePath": "men/back/Stretching - Seated Lower Back Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Seated Wide Angle Pose Sequence",
+    "filename": "Stretching - Seated Wide Angle Pose Sequence.mp4",
+    "relativePath": "men/back/Stretching - Seated Wide Angle Pose Sequence.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Sitting Bent Over Back Stretch",
+    "filename": "Stretching - Sitting Bent Over Back Stretch.mp4",
+    "relativePath": "men/back/Stretching - Sitting Bent Over Back Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Slopes Towards Stretch",
+    "filename": "Stretching - Slopes Towards Stretch.mp4",
+    "relativePath": "men/back/Stretching - Slopes Towards Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Spine Stretch Forward",
+    "filename": "Stretching - Spine Stretch Forward.mp4",
+    "relativePath": "men/back/Stretching - Spine Stretch Forward.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Spine Stretch",
+    "filename": "Stretching - Spine Stretch.mp4",
+    "relativePath": "men/back/Stretching - Spine Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Standing Back Rotation Stretch",
+    "filename": "Stretching - Standing Back Rotation Stretch.mp4",
+    "relativePath": "men/back/Stretching - Standing Back Rotation Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Standing Lateral Stretch (1)",
+    "filename": "Stretching - Standing Lateral Stretch (1).mp4",
+    "relativePath": "men/back/Stretching - Standing Lateral Stretch (1).mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "back",
+    "exerciseName": "Stretching - Standing Lateral Stretch",
+    "filename": "Stretching - Standing Lateral Stretch.mp4",
+    "relativePath": "men/back/Stretching - Standing Lateral Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Barbell Curl",
+    "filename": "Barbell Curl.mp4",
+    "relativePath": "men/biceps/Barbell Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Barbell Drag Curl",
+    "filename": "Barbell Drag Curl.mp4",
+    "relativePath": "men/biceps/Barbell Drag Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Barbell Prone Incline Curl",
+    "filename": "Barbell Prone Incline Curl.mp4",
+    "relativePath": "men/biceps/Barbell Prone Incline Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Cable One Arm Curl",
+    "filename": "Cable One Arm Curl.mp4",
+    "relativePath": "men/biceps/Cable One Arm Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Cable Standing Inner Curl",
+    "filename": "Cable Standing Inner Curl.mp4",
+    "relativePath": "men/biceps/Cable Standing Inner Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Dumbbell Alternate Biceps Curl",
+    "filename": "Dumbbell Alternate Biceps Curl.mp4",
+    "relativePath": "men/biceps/Dumbbell Alternate Biceps Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Dumbbell Alternate Seated Biceps Curl",
+    "filename": "Dumbbell Alternate Seated Biceps Curl.mp4",
+    "relativePath": "men/biceps/Dumbbell Alternate Seated Biceps Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Dumbbell Biceps Curl",
+    "filename": "Dumbbell Biceps Curl.mp4",
+    "relativePath": "men/biceps/Dumbbell Biceps Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Dumbbell Concentration Curl",
+    "filename": "Dumbbell Concentration Curl.mp4",
+    "relativePath": "men/biceps/Dumbbell Concentration Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Dumbbell Cross Body Hammer Curl",
+    "filename": "Dumbbell Cross Body Hammer Curl.mp4",
+    "relativePath": "men/biceps/Dumbbell Cross Body Hammer Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Dumbbell Incline Biceps Curl",
+    "filename": "Dumbbell Incline Biceps Curl.mp4",
+    "relativePath": "men/biceps/Dumbbell Incline Biceps Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Dumbbell Incline Curl",
+    "filename": "Dumbbell Incline Curl.mp4",
+    "relativePath": "men/biceps/Dumbbell Incline Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Dumbbell Incline Hammer Curl",
+    "filename": "Dumbbell Incline Hammer Curl.mp4",
+    "relativePath": "men/biceps/Dumbbell Incline Hammer Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Dumbbell One Arm Zottman Preacher Curl",
+    "filename": "Dumbbell One Arm Zottman Preacher Curl.mp4",
+    "relativePath": "men/biceps/Dumbbell One Arm Zottman Preacher Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Dumbbell Preacher Curl Over Exercise Ball",
+    "filename": "Dumbbell Preacher Curl Over Exercise Ball.mp4",
+    "relativePath": "men/biceps/Dumbbell Preacher Curl Over Exercise Ball.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Dumbbell Prone Incline Curl",
+    "filename": "Dumbbell Prone Incline Curl.mp4",
+    "relativePath": "men/biceps/Dumbbell Prone Incline Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Dumbbell Seated Preacher Curl",
+    "filename": "Dumbbell Seated Preacher Curl.mp4",
+    "relativePath": "men/biceps/Dumbbell Seated Preacher Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "EZ Barbell Biceps Curl",
+    "filename": "EZ Barbell Biceps Curl.mp4",
+    "relativePath": "men/biceps/EZ Barbell Biceps Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Lever Preacher Curl",
+    "filename": "Lever Preacher Curl.mp4",
+    "relativePath": "men/biceps/Lever Preacher Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Lying Supine Dumbbell Curl",
+    "filename": "Lying Supine Dumbbell Curl.mp4",
+    "relativePath": "men/biceps/Lying Supine Dumbbell Curl.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "biceps",
+    "exerciseName": "Stretching - Butterfly Yoga Pose",
+    "filename": "Stretching - Butterfly Yoga Pose.mp4",
+    "relativePath": "men/biceps/Stretching - Butterfly Yoga Pose.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Band Standing Calf Raise",
+    "filename": "Band Standing Calf Raise.mp4",
+    "relativePath": "men/calves/Band Standing Calf Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Donkey Calf Raise",
+    "filename": "Donkey Calf Raise.mp4",
+    "relativePath": "men/calves/Donkey Calf Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Dumbbell Seated Calf Raise",
+    "filename": "Dumbbell Seated Calf Raise.mp4",
+    "relativePath": "men/calves/Dumbbell Seated Calf Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Dumbbell Single Leg Calf Raise",
+    "filename": "Dumbbell Single Leg Calf Raise.mp4",
+    "relativePath": "men/calves/Dumbbell Single Leg Calf Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Dumbbell Standing Calf Raise",
+    "filename": "Dumbbell Standing Calf Raise.mp4",
+    "relativePath": "men/calves/Dumbbell Standing Calf Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Lever Seated Calf Raise",
+    "filename": "Lever Seated Calf Raise.mp4",
+    "relativePath": "men/calves/Lever Seated Calf Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Lever Standing Calf Raise",
+    "filename": "Lever Standing Calf Raise.mp4",
+    "relativePath": "men/calves/Lever Standing Calf Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Sled 45 Degree Calf Press",
+    "filename": "Sled 45 Degree Calf Press.mp4",
+    "relativePath": "men/calves/Sled 45 Degree Calf Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Smith Calf Raise",
+    "filename": "Smith Calf Raise.mp4",
+    "relativePath": "men/calves/Smith Calf Raise.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Stretching - Calf Stretch with Rope",
+    "filename": "Stretching - Calf Stretch with Rope.mp4",
+    "relativePath": "men/calves/Stretching - Calf Stretch with Rope.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Stretching - Calf Stretch with Strap",
+    "filename": "Stretching - Calf Stretch with Strap.mp4",
+    "relativePath": "men/calves/Stretching - Calf Stretch with Strap.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Stretching - Circles Knee Stretch",
+    "filename": "Stretching - Circles Knee Stretch.mp4",
+    "relativePath": "men/calves/Stretching - Circles Knee Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Stretching - Feet and Ankles Rotation Stretch",
+    "filename": "Stretching - Feet and Ankles Rotation Stretch.mp4",
+    "relativePath": "men/calves/Stretching - Feet and Ankles Rotation Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Stretching - Feet and Ankles Stretch",
+    "filename": "Stretching - Feet and Ankles Stretch.mp4",
+    "relativePath": "men/calves/Stretching - Feet and Ankles Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Stretching - Peroneals Stretch",
+    "filename": "Stretching - Peroneals Stretch.mp4",
+    "relativePath": "men/calves/Stretching - Peroneals Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Stretching - Seated Calf Stretch",
+    "filename": "Stretching - Seated Calf Stretch.mp4",
+    "relativePath": "men/calves/Stretching - Seated Calf Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Stretching - Stairs Calf Stretch",
+    "filename": "Stretching - Stairs Calf Stretch.mp4",
+    "relativePath": "men/calves/Stretching - Stairs Calf Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "calves",
+    "exerciseName": "Stretching - Standing Bench Calf Stretch",
+    "filename": "Stretching - Standing Bench Calf Stretch.mp4",
+    "relativePath": "men/calves/Stretching - Standing Bench Calf Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Battling Ropes",
+    "filename": "Battling Ropes.mp4",
+    "relativePath": "men/cardio/Battling Ropes.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Burpee",
+    "filename": "Burpee.mp4",
+    "relativePath": "men/cardio/Burpee.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Cardio Exercises Machines",
+    "filename": "Cardio Exercises Machines.mp4",
+    "relativePath": "men/cardio/Cardio Exercises Machines.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Cardio Exercises",
+    "filename": "Cardio Exercises.mp4",
+    "relativePath": "men/cardio/Cardio Exercises.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Elliptical",
+    "filename": "Elliptical.mp4",
+    "relativePath": "men/cardio/Elliptical.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Jump Rope",
+    "filename": "Jump Rope.mp4",
+    "relativePath": "men/cardio/Jump Rope.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Jump Step-up",
+    "filename": "Jump Step-up.mp4",
+    "relativePath": "men/cardio/Jump Step-up.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Jumping Jack",
+    "filename": "Jumping Jack.mp4",
+    "relativePath": "men/cardio/Jumping Jack.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Running",
+    "filename": "Running.mp4",
+    "relativePath": "men/cardio/Running.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Stationary Bike",
+    "filename": "Stationary Bike.mp4",
+    "relativePath": "men/cardio/Stationary Bike.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Stretching - Bridge Pose Setu Bandhasana (1)",
+    "filename": "Stretching - Bridge Pose Setu Bandhasana (1).mp4",
+    "relativePath": "men/cardio/Stretching - Bridge Pose Setu Bandhasana (1).mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Stretching - Bridge Pose Setu Bandhasana",
+    "filename": "Stretching - Bridge Pose Setu Bandhasana.mp4",
+    "relativePath": "men/cardio/Stretching - Bridge Pose Setu Bandhasana.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Stretching - Flexion Leg Sit-up",
+    "filename": "Stretching - Flexion Leg Sit-up.mp4",
+    "relativePath": "men/cardio/Stretching - Flexion Leg Sit-up.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Stretching - Front Toe Touch",
+    "filename": "Stretching - Front Toe Touch.mp4",
+    "relativePath": "men/cardio/Stretching - Front Toe Touch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Stretching - Plyo Side Lunge Stretch",
+    "filename": "Stretching - Plyo Side Lunge Stretch.mp4",
+    "relativePath": "men/cardio/Stretching - Plyo Side Lunge Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Stretching - Single Leg Stretch (bent knee)",
+    "filename": "Stretching - Single Leg Stretch (bent knee).mp4",
+    "relativePath": "men/cardio/Stretching - Single Leg Stretch (bent knee).mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Stretching - Single Straight Leg Stretch",
+    "filename": "Stretching - Single Straight Leg Stretch.mp4",
+    "relativePath": "men/cardio/Stretching - Single Straight Leg Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Treadmill Running",
+    "filename": "Treadmill Running.mp4",
+    "relativePath": "men/cardio/Treadmill Running.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "cardio",
+    "exerciseName": "Walk Wave Machine",
+    "filename": "Walk Wave Machine.mp4",
+    "relativePath": "men/cardio/Walk Wave Machine.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Band High Fly",
+    "filename": "Band High Fly.mp4",
+    "relativePath": "men/chest/Band High Fly.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Barbell Bench Press",
+    "filename": "Barbell Bench Press.mp4",
+    "relativePath": "men/chest/Barbell Bench Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Barbell Decline Bench Press",
+    "filename": "Barbell Decline Bench Press.mp4",
+    "relativePath": "men/chest/Barbell Decline Bench Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Barbell Incline Bench Press",
+    "filename": "Barbell Incline Bench Press.mp4",
+    "relativePath": "men/chest/Barbell Incline Bench Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Cable Lying Fly, Flat Bench Cable Fly",
+    "filename": "Cable Lying Fly, Flat Bench Cable Fly.mp4",
+    "relativePath": "men/chest/Cable Lying Fly, Flat Bench Cable Fly.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Cable Standing Fly, Crossover fly",
+    "filename": "Cable Standing Fly, Crossover fly.mp4",
+    "relativePath": "men/chest/Cable Standing Fly, Crossover fly.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Chest Dips",
+    "filename": "Chest Dips.mp4",
+    "relativePath": "men/chest/Chest Dips.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Decline Dumbbell Bench Press (45 degree)",
+    "filename": "Decline Dumbbell Bench Press (45 degree).mp4",
+    "relativePath": "men/chest/Decline Dumbbell Bench Press (45 degree).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Deep Push-ups",
+    "filename": "Deep Push-ups.mp4",
+    "relativePath": "men/chest/Deep Push-ups.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Dumbbell Bench Press",
+    "filename": "Dumbbell Bench Press.mp4",
+    "relativePath": "men/chest/Dumbbell Bench Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Dumbbell Decline Fly (45 degree) (1)",
+    "filename": "Dumbbell Decline Fly (45 degree) (1).mp4",
+    "relativePath": "men/chest/Dumbbell Decline Fly (45 degree) (1).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Dumbbell Decline Fly (45 degree)",
+    "filename": "Dumbbell Decline Fly (45 degree).mp4",
+    "relativePath": "men/chest/Dumbbell Decline Fly (45 degree).mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Dumbbell Fly On Exercise Ball",
+    "filename": "Dumbbell Fly On Exercise Ball.mp4",
+    "relativePath": "men/chest/Dumbbell Fly On Exercise Ball.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Dumbbell Fly",
+    "filename": "Dumbbell Fly.mp4",
+    "relativePath": "men/chest/Dumbbell Fly.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Dumbbell Incline Bench Press",
+    "filename": "Dumbbell Incline Bench Press.mp4",
+    "relativePath": "men/chest/Dumbbell Incline Bench Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Dumbbell Incline Fly On Exercise Ball",
+    "filename": "Dumbbell Incline Fly On Exercise Ball.mp4",
+    "relativePath": "men/chest/Dumbbell Incline Fly On Exercise Ball.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Dumbbell Incline Fly",
+    "filename": "Dumbbell Incline Fly.mp4",
+    "relativePath": "men/chest/Dumbbell Incline Fly.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Dumbbell Lying Hammer Press",
+    "filename": "Dumbbell Lying Hammer Press.mp4",
+    "relativePath": "men/chest/Dumbbell Lying Hammer Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Incline Push-Ups",
+    "filename": "Incline Push-Ups.mp4",
+    "relativePath": "men/chest/Incline Push-Ups.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Lever Chest Press",
+    "filename": "Lever Chest Press.mp4",
+    "relativePath": "men/chest/Lever Chest Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Lever Incline Hammer Chest Press",
+    "filename": "Lever Incline Hammer Chest Press.mp4",
+    "relativePath": "men/chest/Lever Incline Hammer Chest Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Lever Lying Chest Press",
+    "filename": "Lever Lying Chest Press.mp4",
+    "relativePath": "men/chest/Lever Lying Chest Press.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Lever Pec Deck Fly",
+    "filename": "Lever Pec Deck Fly.mp4",
+    "relativePath": "men/chest/Lever Pec Deck Fly.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Push-ups",
+    "filename": "Push-ups.mp4",
+    "relativePath": "men/chest/Push-ups.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Stretching - Above Head Chest Stretch",
+    "filename": "Stretching - Above Head Chest Stretch.mp4",
+    "relativePath": "men/chest/Stretching - Above Head Chest Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Stretching - Back Pec Stretch",
+    "filename": "Stretching - Back Pec Stretch.mp4",
+    "relativePath": "men/chest/Stretching - Back Pec Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Stretching - Dynamic Chest Stretch",
+    "filename": "Stretching - Dynamic Chest Stretch.mp4",
+    "relativePath": "men/chest/Stretching - Dynamic Chest Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Stretching - Kneeling Back Rotation Stretch",
+    "filename": "Stretching - Kneeling Back Rotation Stretch.mp4",
+    "relativePath": "men/chest/Stretching - Kneeling Back Rotation Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Stretching - Standing Reach Up Back Rotation Stretch",
+    "filename": "Stretching - Standing Reach Up Back Rotation Stretch.mp4",
+    "relativePath": "men/chest/Stretching - Standing Reach Up Back Rotation Stretch.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Stretching - Standing Wheel Rollout",
+    "filename": "Stretching - Standing Wheel Rollout.mp4",
+    "relativePath": "men/chest/Stretching - Standing Wheel Rollout.mp4",
+    "isWarmup": true
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Triceps Dips",
+    "filename": "Triceps Dips.mp4",
+    "relativePath": "men/chest/Triceps Dips.mp4",
+    "isWarmup": false
+  },
+  {
+    "muscleGroup": "chest",
+    "exerciseName": "Wide Grip Push-ups",
+    "filename": "Wide Grip Push-ups.mp4",
+    "relativePath": "men/chest/Wide Grip Push-ups.mp4",
+    "isWarmup": false
+  }
+]

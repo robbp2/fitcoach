@@ -1,0 +1,28 @@
+{
+  "wgerId": 73,
+  "name": "Bankdrücken LH",
+  "description": "<p>Lege dich auf die Bank, die Stange direkt über die Augen, die Knie etwas angewinkelt und die Füße fest auf dem Boden. Greife die Stange breit und lasse sie langsam und kontrolliert runter, dabei sollte die Stange kurz auf Brustwarzenhöhe den Körper berühren. Dann das Gewicht wieder hochdrücken bis die Arme durchgestreckt sind.</p>\n<p>Bei hohem Gewicht, empfielt sich natürlich einen <em>Spotter</em> zu haben, der einen hilft falls man die Stange nicht alleine hochdrücken kann.</p>\n<p>Mit der Breite des Griffs kann außerdem kontrolliert werden, welcher Bereich der Brust stärker belastet wird:</p>\n<ul>\n<li>breiter Griff: äußere Brustmuskeln</li>\n<li>enger Griff: innere Brustmuskeln und Trizeps</li>\n</ul>",
+  "muscles": [
+    "Chest"
+  ],
+  "musclesSecondary": [
+    "Shoulders",
+    "Triceps"
+  ],
+  "equipment": [
+    "Barbell",
+    "Bench"
+  ],
+  "images": [
+    {
+      "path": "0.png",
+      "isMain": true,
+      "url": "https://wger.de/media/exercise-images/192/Bench-press-1.png"
+    },
+    {
+      "path": "1.png",
+      "isMain": false,
+      "url": "https://wger.de/media/exercise-images/192/Bench-press-2.png"
+    }
+  ]
+}
