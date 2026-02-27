@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "FitCoach",
+    "slug": "fitcoach",
+    "scheme": "fitcoach",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "bundleIdentifier": "com.personal.fitcoach",
+      "supportsTablet": false
+    },
+    "plugins": ["expo-router"]
+  }
+}
