@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "nextjs-dev",
+      "runtimeExecutable": ".claude/start-dev.sh",
+      "runtimeArgs": [],
+      "port": 3456
+    },
+    {
+      "name": "remotion-preview",
+      "runtimeExecutable": "/bin/zsh",
+      "runtimeArgs": ["-lc", "npx remotion preview remotion/index.ts"],
+      "port": 3100
+    }
+  ]
+}

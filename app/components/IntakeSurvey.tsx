@@ -11,7 +11,8 @@ import {
   Activity,
   Check,
 } from 'lucide-react';
-import { UserProfile, WorkoutProgram } from '../lib/types';
+import { UserProfile } from '../lib/types';
+import { generateProgram } from '../lib/program-engine';
 
 // ─── Form state type ───────────────────────────────────────────────────────────
 interface FormData {
@@ -158,16 +159,7 @@ export default function IntakeSurvey() {
       createdAt: new Date().toISOString(),
     };
 
-    const program: WorkoutProgram = {
-      id: crypto.randomUUID(),
-      profile,
-      splitType: 'PPL',
-      weeks: [],
-      currentWeekIndex: 0,
-      currentDayIndex: 0,
-      startDate: new Date().toISOString(),
-      lastOpenedDate: new Date().toISOString(),
-    };
+    const program = generateProgram(profile);
 
     localStorage.setItem('fitcoach_profile', JSON.stringify(profile));
     localStorage.setItem('fitcoach_program', JSON.stringify(program));
@@ -175,18 +167,18 @@ export default function IntakeSurvey() {
   };
 
   return (
-    <div className="min-h-screen bg-[#050505] text-white flex flex-col items-center justify-center p-6 relative overflow-hidden">
+    <div className="min-h-[100dvh] bg-[#050505] text-white flex flex-col items-center p-6 relative overflow-hidden">
       {/* Ambient glow blobs */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-indigo-500/10 rounded-full pointer-events-none" style={{ filter: 'blur(120px)' }} />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-emerald-500/10 rounded-full pointer-events-none" style={{ filter: 'blur(120px)' }} />
 
-      <div className="w-full max-w-xl z-10 flex flex-col min-h-[80vh] justify-between">
+      <div className="w-full max-w-xl z-10 flex flex-col flex-1 pt-8 md:pt-16">
         {/* ── Header / progress ───────────────────────────────────────── */}
         <div className="space-y-4">
           <p className="text-sm tracking-[0.2em] text-zinc-400 font-medium uppercase">
             FitCoach — Step {step} of {TOTAL_STEPS}
           </p>
-          <div className="w-full h-1 bg-zinc-900 rounded-full overflow-hidden">
+          <div className="w-full h-1 bg-zinc-800 rounded-full overflow-hidden">
             <div
               className="h-full bg-indigo-500 transition-all duration-500 ease-out"
               style={{ width: `${progress}%` }}
@@ -195,7 +187,7 @@ export default function IntakeSurvey() {
         </div>
 
         {/* ── Step content ─────────────────────────────────────────────── */}
-        <div className="flex-1 flex flex-col justify-center py-10">
+        <div className="flex-1 flex flex-col pt-10 md:pt-16">
 
           {/* STEP 1 — Physique Goal */}
           {step === 1 && (
@@ -249,7 +241,7 @@ export default function IntakeSurvey() {
                   training history?
                 </span>
               </h2>
-              <div className="space-y-4">
+              <div className="space-y-3">
                 {EXPERIENCE_LEVELS.map((lvl) => {
                   const isSelected = form.experienceLevel === lvl.id;
                   return (
@@ -259,7 +251,7 @@ export default function IntakeSurvey() {
                       className={`w-full text-left p-6 rounded-2xl border backdrop-blur-md transition-all duration-300
                         ${isSelected
                           ? 'border-indigo-500 bg-indigo-500/10 shadow-[0_0_30px_rgba(99,102,241,0.15)]'
-                          : 'border-zinc-800/50 bg-zinc-900/30 hover:bg-zinc-800/50'
+                          : 'border-zinc-700/60 bg-zinc-900/40 hover:bg-zinc-800/50'
                         }`}
                     >
                       <div className="flex items-center justify-between">
@@ -300,7 +292,7 @@ export default function IntakeSurvey() {
                       className={`p-8 rounded-2xl border backdrop-blur-md flex flex-col items-center justify-center transition-all duration-300
                         ${isSelected
                           ? 'border-emerald-500 bg-emerald-500/10 shadow-[0_0_30px_rgba(16,185,129,0.15)]'
-                          : 'border-zinc-800/50 bg-zinc-900/30 hover:bg-zinc-800/50'
+                          : 'border-zinc-700/60 bg-zinc-900/40 hover:bg-zinc-800/50'
                         }`}
                     >
                       <span className="text-5xl font-light mb-2">{days}</span>
@@ -324,7 +316,7 @@ export default function IntakeSurvey() {
                   training environment?
                 </span>
               </h2>
-              <div className="space-y-4">
+              <div className="space-y-3">
                 {EQUIPMENT_OPTIONS.map((opt) => {
                   const isSelected = form.equipment === opt.id;
                   return (
@@ -334,7 +326,7 @@ export default function IntakeSurvey() {
                       className={`w-full text-left p-6 rounded-2xl border backdrop-blur-md transition-all duration-300
                         ${isSelected
                           ? 'border-emerald-500 bg-emerald-500/10 shadow-[0_0_30px_rgba(16,185,129,0.15)]'
-                          : 'border-zinc-800/50 bg-zinc-900/30 hover:bg-zinc-800/50'
+                          : 'border-zinc-700/60 bg-zinc-900/40 hover:bg-zinc-800/50'
                         }`}
                     >
                       <div className="flex items-center justify-between">
@@ -440,7 +432,7 @@ export default function IntakeSurvey() {
               </h2>
 
               {/* Summary card */}
-              <div className="rounded-2xl border border-zinc-800/50 bg-zinc-900/30 backdrop-blur-md p-6 space-y-4">
+              <div className="rounded-2xl border border-zinc-700/60 bg-zinc-900/40 backdrop-blur-md p-6 space-y-4">
                 <SummaryRow label="Goal" value={goalLabel(form.physiqueGoal)} />
                 <div className="h-px bg-zinc-800/50" />
                 <SummaryRow label="Experience" value={expLabel(form.experienceLevel)} />
@@ -469,7 +461,7 @@ export default function IntakeSurvey() {
         </div>
 
         {/* ── Navigation ───────────────────────────────────────────────── */}
-        <div className="flex justify-between items-center pt-4">
+        <div className="flex justify-between items-center pt-4 pb-4">
           <button
             onClick={handleBack}
             className={`p-4 text-zinc-400 hover:text-white transition-colors ${
