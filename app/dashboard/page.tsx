@@ -1,9 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import { Activity, Dumbbell, Moon, BookOpen, ChevronRight } from 'lucide-react';
-import { WorkoutProgram, WorkoutDay } from '../lib/types';
+import { useRouter } from 'next/navigation';
+import { Activity, BookOpen, Play } from 'lucide-react';
+import type { WorkoutProgram, WorkoutDay } from '../lib/types';
 import {
   loadProgram,
   saveProgram,
@@ -15,28 +15,47 @@ import {
   getSplitScienceContext,
 } from '../lib/program-engine';
 
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+function estimateDuration(day: WorkoutDay): string {
+  if (day.isRest || day.exercises.length === 0) return '';
+  const totalSets = day.exercises.reduce((sum, ex) => sum + ex.sets, 0);
+  const avgRest =
+    day.exercises.reduce((sum, ex) => sum + ex.restSeconds, 0) / day.exercises.length;
+  const minutes = (totalSets * (avgRest + 45)) / 60;
+  const rounded = Math.max(5, Math.round(minutes / 5) * 5);
+  return `~${rounded}m`;
+}
+
+function movementCount(day: WorkoutDay): string {
+  const n = day.exercises.length;
+  return `${n} movement${n !== 1 ? 's' : ''}`;
+}
+
+const DAY_LABELS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+
+// ─── Component ────────────────────────────────────────────────────────────────
+
 export default function Dashboard() {
+  const router = useRouter();
   const [program, setProgram] = useState<WorkoutProgram | null>(null);
-  const [todaysDay, setTodaysDay] = useState<WorkoutDay | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // ── Init ────────────────────────────────────────────────────────────────────
   useEffect(() => {
-    async function initProgram() {
+    async function init() {
       try {
-        // Check for existing program
         let prog = loadProgram();
 
         if (!prog) {
-          // Check for profile
-          const profileRaw = localStorage.getItem('fitcoach_profile');
-          if (!profileRaw) {
-            setLoading(false);
+          const raw = localStorage.getItem('fitcoach_profile');
+          if (!raw) {
+            // No profile → back to intake
+            router.replace('/');
             return;
           }
-
-          const profile = JSON.parse(profileRaw);
-          // Generate program async (loads video library)
+          const profile = JSON.parse(raw);
           prog = await generateProgramAsync(profile);
           saveProgram(prog);
         }
@@ -46,197 +65,190 @@ export default function Dashboard() {
         saveProgram(prog);
 
         setProgram(prog);
-        setTodaysDay(getTodaysDay(prog));
       } catch (err) {
-        console.error('[Dashboard] Failed to initialize program:', err);
-        setError('Failed to load program. Please try restarting the intake.');
+        console.error('[Dashboard] init error:', err);
+        setError('Something went wrong. Please restart intake.');
       } finally {
         setLoading(false);
       }
     }
+    init();
+  }, [router]);
 
-    initProgram();
-  }, []);
+  // ── Reset handler ───────────────────────────────────────────────────────────
+  function handleReset() {
+    localStorage.removeItem('fitcoach_profile');
+    localStorage.removeItem('fitcoach_program');
+    router.push('/');
+  }
 
-  // ─── Loading state ────────────────────────────────────────────────────────
-
+  // ── Loading ─────────────────────────────────────────────────────────────────
   if (loading) {
     return (
-      <div className="relative min-h-screen flex flex-col items-center justify-center p-6 overflow-hidden bg-[#050505]">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full pointer-events-none" style={{ backgroundColor: 'rgba(99,102,241,0.1)', filter: 'blur(120px)' }} />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full pointer-events-none" style={{ backgroundColor: 'rgba(16,185,129,0.1)', filter: 'blur(120px)' }} />
+      <div className="relative min-h-screen flex flex-col items-center justify-center bg-[#050505] overflow-hidden">
+        <div
+          className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full pointer-events-none"
+          style={{ backgroundColor: 'rgba(99,102,241,0.10)', filter: 'blur(120px)' }}
+        />
+        <div
+          className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full pointer-events-none"
+          style={{ backgroundColor: 'rgba(16,185,129,0.10)', filter: 'blur(120px)' }}
+        />
         <div className="relative z-10 flex flex-col items-center gap-4">
-          <div className="w-12 h-12 rounded-full border-2 border-indigo-500/40 border-t-indigo-400 animate-spin" />
+          <div className="w-12 h-12 rounded-full border-2 border-indigo-500/30 border-t-indigo-400 animate-spin" />
           <p className="text-zinc-400 text-sm tracking-widest uppercase">Building your program…</p>
         </div>
       </div>
     );
   }
 
-  // ─── No profile ───────────────────────────────────────────────────────────
-
+  // ── Error / no program ──────────────────────────────────────────────────────
   if (!program) {
     return (
-      <div className="relative min-h-screen flex flex-col items-center justify-center p-6 overflow-hidden bg-[#050505]">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full pointer-events-none" style={{ backgroundColor: 'rgba(99,102,241,0.1)', filter: 'blur(120px)' }} />
-        <div className="relative z-10 flex flex-col items-center gap-6 text-center max-w-md">
-          <div className="w-16 h-16 rounded-full bg-indigo-500/20 flex items-center justify-center">
-            <Activity size={32} className="text-indigo-400" />
-          </div>
-          <div className="space-y-2">
-            <h1 className="text-4xl font-light text-white">No Program Found</h1>
-            <p className="text-zinc-400 text-sm">{error ?? 'Complete the intake to generate your program.'}</p>
-          </div>
-          <Link href="/" className="flex items-center space-x-2 bg-white text-black px-8 py-4 rounded-full font-medium hover:bg-zinc-200 transition-all">
-            <span>Start Intake</span>
-            <ChevronRight size={20} />
-          </Link>
-        </div>
+      <div className="relative min-h-screen flex flex-col items-center justify-center bg-[#050505] overflow-hidden p-6">
+        <div
+          className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full pointer-events-none"
+          style={{ backgroundColor: 'rgba(99,102,241,0.10)', filter: 'blur(120px)' }}
+        />
+        <p className="text-zinc-400 text-sm text-center max-w-xs">
+          {error ?? 'No program found. Please complete the intake.'}
+        </p>
+        <button
+          onClick={handleReset}
+          className="mt-6 bg-white text-black px-8 py-4 rounded-full font-medium hover:bg-zinc-200 transition-all text-sm"
+        >
+          Start Intake
+        </button>
       </div>
     );
   }
 
+  // ── Computed values ─────────────────────────────────────────────────────────
   const phaseName = getPhaseName(program);
   const splitName = getSplitName(program);
   const scienceContext = getSplitScienceContext(program);
   const currentWeek = program.weeks[program.currentWeekIndex];
+  const todaysDay: WorkoutDay | null = getTodaysDay(program);
+  const isDeloadWeek = currentWeek?.isDeload ?? false;
 
+  // ── Render ──────────────────────────────────────────────────────────────────
   return (
-    <div className="relative min-h-screen bg-[#050505] text-white overflow-hidden">
+    <div className="min-h-screen bg-[#050505] text-white p-6 md:p-12 relative overflow-x-hidden">
       {/* Ambient glow */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 rounded-full pointer-events-none" style={{ backgroundColor: 'rgba(99,102,241,0.08)', filter: 'blur(120px)' }} />
-      <div className="absolute bottom-1/4 right-0 w-96 h-96 rounded-full pointer-events-none" style={{ backgroundColor: 'rgba(16,185,129,0.08)', filter: 'blur(120px)' }} />
+      <div
+        className="absolute top-0 left-1/4 w-[500px] h-[500px] rounded-full pointer-events-none"
+        style={{ backgroundColor: 'rgba(99,102,241,0.07)', filter: 'blur(140px)' }}
+      />
+      <div
+        className="absolute bottom-0 right-1/4 w-[500px] h-[500px] rounded-full pointer-events-none"
+        style={{ backgroundColor: 'rgba(16,185,129,0.07)', filter: 'blur(140px)' }}
+      />
 
-      <div className="relative z-10 max-w-xl mx-auto px-4 py-8 space-y-6">
+      <div className="relative z-10 max-w-[1400px] mx-auto">
 
-        {/* ── Header ─────────────────────────────────────────────────── */}
-        <div className="space-y-1">
-          <p className="text-xs tracking-[0.2em] text-zinc-500 font-medium uppercase">FitCoach</p>
-          <h1 className="text-3xl font-light tracking-tight">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400 font-semibold">
-              {phaseName}
-            </span>
-          </h1>
-          <p className="text-zinc-500 text-sm">{splitName}</p>
-        </div>
-
-        {/* ── Today's Workout Card ───────────────────────────────────── */}
-        {todaysDay && !todaysDay.isRest ? (
-          <div className="rounded-2xl border border-indigo-500/30 bg-indigo-500/10 backdrop-blur-md p-6 shadow-[0_0_40px_rgba(99,102,241,0.1)] space-y-4">
-            <div className="flex items-start justify-between">
-              <div className="space-y-1">
-                <p className="text-xs tracking-widest text-indigo-400 uppercase font-medium">Today</p>
-                <h2 className="text-xl font-semibold leading-snug">{todaysDay.name}</h2>
-                <p className="text-sm text-zinc-400">
-                  {todaysDay.exercises.length} exercises
-                  {todaysDay.isDeload && (
-                    <span className="ml-2 text-amber-400 text-xs font-medium">• Deload Week</span>
-                  )}
-                </p>
-              </div>
-              <div className="w-12 h-12 rounded-xl bg-indigo-500/20 flex items-center justify-center shrink-0">
-                <Dumbbell size={24} className="text-indigo-400" />
-              </div>
-            </div>
-
-            {/* Exercise preview */}
-            <div className="space-y-2">
-              {todaysDay.exercises.slice(0, 4).map((ex) => (
-                <div key={ex.id} className="flex items-center justify-between text-sm">
-                  <span className="text-zinc-300 truncate pr-2">{ex.name}</span>
-                  <span className="text-zinc-500 shrink-0">{ex.sets}×{ex.repRange}</span>
-                </div>
-              ))}
-              {todaysDay.exercises.length > 4 && (
-                <p className="text-xs text-zinc-600">+{todaysDay.exercises.length - 4} more exercises</p>
+        {/* ── Header ──────────────────────────────────────────────────────────── */}
+        <header className="flex justify-between items-center mb-12">
+          <div>
+            <p className="text-sm tracking-[0.2em] text-zinc-400 uppercase font-medium mb-1">
+              Current Phase
+            </p>
+            <div className="flex items-center gap-3 flex-wrap">
+              <h1 className="text-3xl font-semibold">{phaseName}</h1>
+              {isDeloadWeek && (
+                <span className="text-xs bg-amber-500/20 text-amber-300 px-2 py-1 rounded-full uppercase tracking-wider">
+                  Deload Week
+                </span>
               )}
             </div>
+          </div>
+          <button
+            onClick={handleReset}
+            className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center hover:bg-zinc-900 transition-colors shrink-0"
+            title="Reset intake"
+          >
+            <Activity size={20} className="text-indigo-400" />
+          </button>
+        </header>
 
-            <button className="w-full bg-white text-black py-4 rounded-xl font-semibold text-sm hover:bg-zinc-200 transition-all">
-              Start Workout
-            </button>
+        {/* ── Science Context Card ─────────────────────────────────────────────── */}
+        <div className="bg-zinc-900/40 border border-zinc-800/50 rounded-3xl p-6 md:p-8 mb-12 backdrop-blur-xl flex flex-col md:flex-row gap-8 items-start">
+          <div className="w-12 h-12 rounded-full bg-indigo-500/20 flex items-center justify-center shrink-0">
+            <BookOpen size={24} className="text-indigo-400" />
           </div>
-        ) : (
-          <div className="rounded-2xl border border-zinc-800/50 bg-zinc-900/30 backdrop-blur-md p-6 space-y-3">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-zinc-800 flex items-center justify-center">
-                <Moon size={20} className="text-zinc-500" />
-              </div>
-              <div>
-                <h2 className="text-lg font-medium">Rest & Recovery</h2>
-                <p className="text-sm text-zinc-500">Your muscles are growing today.</p>
-              </div>
-            </div>
+          <div>
+            <h2 className="text-lg font-medium mb-2 flex items-center gap-2 flex-wrap">
+              {splitName}
+              <span className="text-xs bg-indigo-500/20 text-indigo-300 px-2 py-1 rounded-full uppercase tracking-wider">
+                Evidence Based
+              </span>
+            </h2>
+            <p className="text-zinc-400 leading-relaxed text-sm md:text-base max-w-3xl">
+              {scienceContext}
+              {' '}Training {program.profile.daysPerWeek} days/week.
+            </p>
           </div>
-        )}
-
-        {/* ── Week Schedule ──────────────────────────────────────────── */}
-        {currentWeek && (
-          <div className="space-y-3">
-            <h3 className="text-xs tracking-[0.2em] text-zinc-500 uppercase font-medium">
-              Week {currentWeek.weekNumber} Schedule
-              {currentWeek.isDeload && <span className="ml-2 text-amber-400">• Deload</span>}
-            </h3>
-            <div className="grid grid-cols-1 gap-2">
-              {currentWeek.days.map((day, i) => {
-                const isToday = i === program.currentDayIndex;
-                return (
-                  <div
-                    key={i}
-                    className={`flex items-center justify-between px-4 py-3 rounded-xl border text-sm transition-all
-                      ${isToday
-                        ? 'border-indigo-500/50 bg-indigo-500/10 text-white'
-                        : day.isRest
-                        ? 'border-zinc-800/30 bg-transparent text-zinc-600'
-                        : 'border-zinc-800/50 bg-zinc-900/20 text-zinc-300'
-                      }`}
-                  >
-                    <div className="flex items-center gap-3">
-                      <span className="text-xs font-mono text-zinc-600 w-6">
-                        {['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'][i]}
-                      </span>
-                      <span className={`truncate ${isToday ? 'font-medium' : ''}`}>
-                        {day.isRest ? 'Rest' : day.name}
-                      </span>
-                    </div>
-                    <div className="flex items-center gap-2 shrink-0">
-                      {isToday && (
-                        <span className="text-xs text-indigo-400 font-medium">Today</span>
-                      )}
-                      {!day.isRest && (
-                        <span className="text-xs text-zinc-600">{day.exercises.length} ex</span>
-                      )}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        )}
-
-        {/* ── Science Context Card ──────────────────────────────────── */}
-        <div className="rounded-2xl border border-zinc-800/50 bg-zinc-900/30 backdrop-blur-md p-6 space-y-3">
-          <div className="flex items-center gap-2">
-            <BookOpen size={16} className="text-indigo-400 shrink-0" />
-            <h3 className="text-sm font-semibold text-indigo-400 tracking-wide uppercase">Why This Split</h3>
-          </div>
-          <p className="text-zinc-400 text-sm leading-relaxed">{scienceContext}</p>
         </div>
 
-        {/* ── Footer / Reset ────────────────────────────────────────── */}
-        <div className="text-center pt-2">
-          <Link
-            href="/"
-            onClick={() => {
-              if (typeof window !== 'undefined') {
-                localStorage.removeItem('fitcoach_profile');
-                localStorage.removeItem('fitcoach_program');
-              }
-            }}
-            className="text-xs text-zinc-700 hover:text-zinc-500 transition-colors"
-          >
-            ← Restart Intake
-          </Link>
+        {/* ── Weekly Schedule ──────────────────────────────────────────────────── */}
+        <h3 className="text-xl font-medium mb-6 uppercase tracking-[0.05em]">
+          Your Weekly Blueprint
+        </h3>
+
+        <div className="grid grid-cols-1 md:grid-cols-7 gap-4">
+          {currentWeek?.days.map((day, idx) => {
+            const isToday = idx === program.currentDayIndex;
+            const isRest = day.isRest;
+            const duration = estimateDuration(day);
+            const movements = isRest ? '' : movementCount(day);
+
+            return (
+              <div
+                key={idx}
+                className={[
+                  'p-6 rounded-2xl border flex flex-col justify-between min-h-[160px] transition-all duration-300',
+                  isToday
+                    ? 'border-indigo-500 bg-indigo-500/5'
+                    : isRest
+                    ? 'border-zinc-800/50 bg-zinc-900/20 opacity-50'
+                    : 'border-zinc-800/50 bg-zinc-900/20 hover:border-zinc-600',
+                ].join(' ')}
+              >
+                {/* Top row: day label + today dot */}
+                <div className="flex justify-between items-start mb-4">
+                  <span className="text-sm font-medium text-zinc-500">
+                    {DAY_LABELS[idx] ?? `Day ${idx + 1}`}
+                  </span>
+                  {isToday && (
+                    <span className="w-2 h-2 rounded-full bg-indigo-500 shadow-[0_0_10px_rgba(99,102,241,0.8)] animate-pulse" />
+                  )}
+                </div>
+
+                {/* Workout name + meta */}
+                <div className="flex-1">
+                  <h4 className="font-medium text-lg leading-snug mb-1">
+                    {isRest ? 'Recovery' : day.name}
+                  </h4>
+                  {!isRest && (
+                    <p className="text-xs text-zinc-500">
+                      {movements}
+                      {duration ? ` • ${duration}` : ''}
+                    </p>
+                  )}
+                </div>
+
+                {/* Start Workout button — today only, training days only */}
+                {isToday && !isRest && (
+                  <button
+                    onClick={() => router.push('/workout')}
+                    className="mt-4 w-full bg-white text-black text-sm font-medium py-2 rounded-lg hover:bg-zinc-200 transition-colors flex items-center justify-center gap-2"
+                  >
+                    <Play size={14} />
+                    Start Workout →
+                  </button>
+                )}
+              </div>
+            );
+          })}
         </div>
 
       </div>
