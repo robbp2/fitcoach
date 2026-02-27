@@ -12,7 +12,7 @@ import {
   Check,
 } from 'lucide-react';
 import { UserProfile } from '../lib/types';
-import { generateProgram } from '../lib/program-engine';
+import { generateProgramAsync } from '../lib/program-engine';
 
 // ─── Form state type ───────────────────────────────────────────────────────────
 interface FormData {
@@ -115,6 +115,7 @@ const expLabel = (e: UserProfile['experienceLevel'] | null) =>
 export default function IntakeSurvey() {
   const router = useRouter();
   const [step, setStep] = useState(1);
+  const [generating, setGenerating] = useState(false);
   const [form, setForm] = useState<FormData>({
     physiqueGoal: null,
     experienceLevel: null,
@@ -147,7 +148,8 @@ export default function IntakeSurvey() {
     if (step > 1) setStep((s) => s - 1);
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
+    setGenerating(true);
     const profile: UserProfile = {
       physiqueGoal: form.physiqueGoal!,
       experienceLevel: form.experienceLevel!,
@@ -159,7 +161,7 @@ export default function IntakeSurvey() {
       createdAt: new Date().toISOString(),
     };
 
-    const program = generateProgram(profile);
+    const program = await generateProgramAsync(profile);
 
     localStorage.setItem('fitcoach_profile', JSON.stringify(profile));
     localStorage.setItem('fitcoach_program', JSON.stringify(program));
@@ -483,10 +485,20 @@ export default function IntakeSurvey() {
           ) : (
             <button
               onClick={handleSubmit}
-              className="flex items-center space-x-2 bg-white text-black px-8 py-4 rounded-full font-medium hover:bg-zinc-200 transition-all"
+              disabled={generating}
+              className="flex items-center space-x-2 bg-white text-black px-8 py-4 rounded-full font-medium hover:bg-zinc-200 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
             >
-              <span>Generate My Program</span>
-              <ArrowRight size={20} />
+              {generating ? (
+                <>
+                  <div className="w-4 h-4 border-2 border-black/30 border-t-black rounded-full animate-spin" />
+                  <span>Building program…</span>
+                </>
+              ) : (
+                <>
+                  <span>Generate My Program</span>
+                  <ArrowRight size={20} />
+                </>
+              )}
             </button>
           )}
         </div>
